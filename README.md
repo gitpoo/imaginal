@@ -4,7 +4,7 @@ Claude and I built *Imaginal,* named for the cells that carry a caterpillar thro
 
 Imaginal measures what survives when an AI agent's memory is rebuilt. A working session is parked, then a fresh agent picks it up from a trace of that session and nothing else. Imaginal scores what the new agent still knows, what it lost, and whether it acts on a claim that a later note retracted.
 
-The results are one self-contained page, `runs/demo.html`. GitHub shows HTML files as source, so clone the repo and open the file in a browser.
+The results are one self-contained page: **[gitpoo.github.io/imaginal](https://gitpoo.github.io/imaginal/)**. It is `runs/demo.html` in this repo, served as is.
 
 ## Read this first
 
@@ -45,7 +45,7 @@ None of the 8 agents that got the relevant note resubmitted. All 8 kept their fi
 
 ## A second experiment: a deadline that hasn't passed
 
-In `runs/demo_live.json` the retracted deadline (11/15) is still ahead on the day the agent resumes (10/31), so noticing a passed date can't save it. Only the retraction can. 36 runs, conditions 0 to 2d.
+In `runs/demo_live.json` the retracted deadline (11/15) is still ahead on the day the agent resumes (10/31), so noticing a passed date can't save it. Only the retraction can. 36 runs, conditions 0 to 2d, with [its own page](https://gitpoo.github.io/imaginal/runs/demo_live.html).
 
 - With no help, 8 of 9 runs avoided the trap. The one that acted was rebuilt from the compaction-style summary.
 - Agents rebuilt from the full transcript read the note that holds the retraction in 3 of 3 runs. From the remap, 2 of 3. From the summary, 0 of 3.
