@@ -131,8 +131,8 @@ Every JSON file under `runs/` is byte-identical to what the experiment wrote. Th
 
 - `scripts/audit.py`: the default memory directory is `$MEMORY_DIR` or the current directory. It used to be the author's own.
 - `scripts/imaginal.py`: the API key can come from `ANTHROPIC_API_KEY`. Comments that described an earlier version of the `claude -p` backend were corrected, and one was added above the compaction prompt. The descriptions of two traces were reworded for future runs. `--backend cli` now refuses condition 2h, which it used to run without the refusal.
-- `scripts/render_demo.py`: three pieces of fixed page copy changed. The reproduce commands in the footer used to overwrite the saved run. A note was added under the traces. "The baseline that ships today" became "an imitation of the kind that ships in coding agents today".
-- `runs/demo.html` and `runs/demo_live.html` were re-rendered from their JSON files with the renderer as published, so the replay reproduces both. They differ from the first renders in that page copy and, on the live page, in one caption sentence.
+- `scripts/render_demo.py`: three pieces of fixed page copy changed. The reproduce commands in the footer used to overwrite the saved run. A note was added under the traces. "The baseline that ships today" became "an imitation of the kind that ships in coding agents today". The page also gained a tab icon, a footer link to this repo, and a layout fix so an opened answer panel in the salience table fits a phone screen.
+- `runs/demo.html` and `runs/demo_live.html` were re-rendered from their JSON files with the renderer as published, so the replay reproduces both. They differ from the first renders in that page copy, in those three additions and, on the live page, in one caption sentence.
 - `SKILL.md`: usage paths made relative, notes about tooling that isn't in this repo removed, and one sentence added on which signals are scored.
 
 ## What's not here

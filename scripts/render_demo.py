@@ -3,12 +3,14 @@
 
 render(data, out) takes the dict that `imaginal.py survive` saved (runs/demo.json) and writes ONE
 self-contained static HTML file: inline CSS and JS only, no network request of any kind (no CDN, no web fonts, no
-images, no links). Every number on the page is read from `data`; the only fixed copy is the framing text, the legends,
-the real-corpus line and the reproduce commands. Rows whose verdict is not "ok" are drawn grey as "no verdict" and are
-left out of every mean. Expects the `aggregate` block that imaginal.py writes beside the seeds.
-Stdlib only: datetime, html, pathlib.
+image files). The tab icon is an inline data: URI, so the browser does not go asking the host for /favicon.ico. The one
+link out is the footer's link to the repo. Every number on the page is read from `data`; the only fixed copy is the
+framing text, the legends, the real-corpus line, the reproduce commands and that link. Rows whose verdict is not "ok"
+are drawn grey as "no verdict" and are left out of every mean. Expects the `aggregate` block that imaginal.py writes
+beside the seeds.
+Stdlib only: datetime, html, pathlib, urllib.parse.
 """
-import datetime, html, pathlib
+import datetime, html, pathlib, urllib.parse
 
 REAL_CORPUS_LINE = ("On the real 318-note corpus the audit's hit rate on hand-verified candidates was 41% (7 of 17 judgeable), "
                     "Wilson 95% interval roughly 22 to 64%; no real note appears on this page.")
@@ -21,6 +23,15 @@ COMMANDS_LIVE = ("python3 -I fixtures/synthetic/make_corpus.py --seed 1 --trap l
 TRACE_NOTE = ("The labels are the saved run's own. \"Chroma's fidelity condition\" is this project's shorthand for the full-input "
               "condition in Chroma's Context Rot report; the term is not Chroma's. The compaction summary is an imitation written for "
               "this experiment under a prompt modeled on Claude Code's. It is not output from Claude Code.")
+REPO_URL = "https://github.com/gitpoo/imaginal"
+# The tab icon, inline. Without one the browser asks the host for /favicon.ico, which a project page cannot serve.
+ICON_SVG = ("<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='#1d1d1b'/>"
+            "<path fill='#f6f6f2' d='M15.2 15.5C14.5 11 10.5 6.5 7 6.5 3.5 6.5 3.5 12 6 14.5 8.5 17 12.5 16.5 15.2 15.5Z"
+            "M15.2 16.5C11.5 16.8 7.5 18.5 7.5 21.8 7.5 25 10.5 26.2 12.3 24.8 14 23.4 15 19.5 15.2 16.5Z"
+            "M16.8 15.5C17.5 11 21.5 6.5 25 6.5 28.5 6.5 28.5 12 26 14.5 23.5 17 19.5 16.5 16.8 15.5Z"
+            "M16.8 16.5C20.5 16.8 24.5 18.5 24.5 21.8 24.5 25 21.5 26.2 19.7 24.8 18 23.4 17 19.5 16.8 16.5Z'/>"
+            "<path fill='none' stroke='#f6f6f2' stroke-width='1.6' stroke-linecap='round' d='M16 10v12M16 10l-2.1-3M16 10l2.1-3'/></svg>")
+ICON_LINK = '<link rel="icon" href="data:image/svg+xml,' + urllib.parse.quote(ICON_SVG, safe="/:='") + '">'
 STATE_TONE = {"caught": "pass", "unaware": "mixed", "acted": "fail"}
 TONE_WORDS = {"pass": "pass-majority", "mixed": "mixed (tied)", "fail": "fail-majority", "none": "no verdict"}
 
@@ -90,6 +101,9 @@ pre.cmd{white-space:pre;overflow-wrap:normal;max-height:none}
 .callout{border-left:4px solid var(--text);background:var(--surface);padding:10px 14px;border-radius:0 8px 8px 0;margin:12px 0;font-size:14px}
 .legend{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:center;font-size:12.5px;color:var(--muted);margin:10px 0}
 .scroll{overflow-x:auto;max-width:100%}
+/* On a narrow screen the salience table scrolls sideways; an opened panel stays inside the visible part. 7px is a cell's padding plus border. */
+.sal{container-type:inline-size}
+.sal .panels{position:sticky;left:7px;max-width:calc(100vw - 62px);max-width:calc(100cqw - 14px)}
 table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}
 .cell,.chip{--tf:var(--none);--tb:var(--none-bg);--tl:var(--none-line)}
 .t-pass{--tf:var(--pass);--tb:var(--pass-bg);--tl:var(--pass-line)}
@@ -146,6 +160,8 @@ tr.trap .cell{padding:14px 4px}
 .limits ul{margin:0;padding-left:20px}
 .limits li{margin:8px 0}
 footer{margin-top:44px;border-top:1px solid var(--line);padding-top:16px}
+a{color:inherit}
+.src{margin-top:12px}
 @media (max-width:640px){.rl .how{display:none}h1{font-size:32px}}
 """.replace("__DARK__", DARK)
 
@@ -518,7 +534,7 @@ class Page:
             rev = ('<p class="muted cap">' + esc("Revisions after the line, pooled over traces and counting only injections that matched the retraction: "
                                                 + "; ".join(pooled) + ". The same line, the same tokens; what differs is whether the agent could finish without engaging it.") + "</p>")
         return (f'<div><h3>Row {esc(self.trap_n)} by salience condition (all conditions, pooled over seeds)</h3><p class="muted cap">{esc(cap)}</p>'
-                f'<div class="scroll"><table class="dt"><thead>{head}</thead><tbody>{body}</tbody></table></div>{rev}</div>')
+                f'<div class="scroll sal"><table class="dt"><thead>{head}</thead><tbody>{body}</tbody></table></div>{rev}</div>')
 
     def grid_row(self, it):
         A, key = self.arms, it.get("key")
@@ -667,13 +683,14 @@ class Page:
         cmds = COMMANDS_LIVE if str(self.d.get("variant")) == "live" else COMMANDS
         return ('<footer><h2>Reproduce</h2><p class="muted">From the repo root. The first and last commands make no network call, and the last rebuilds '
                 'this page from the saved run. The middle one calls the API, needs a key, and writes a new file so the saved run is left alone.</p>'
-                f'<pre class="cmd">{esc(cmds)}</pre></footer>')
+                f'<pre class="cmd">{esc(cmds)}</pre>'
+                f'<p class="muted src">Code, saved runs and README: <a href="{esc(REPO_URL)}">{esc(REPO_URL.split("//", 1)[-1])}</a></p></footer>')
 
     def build(self):
         body = "".join([self.header(), self.intro(), self.session(), self.traces(), self.rubric_section(), self.bars(), self.limits(), self.footer()])
         return ('<!doctype html>\n<html lang="en"><head><meta charset="utf-8">'
                 '<meta name="viewport" content="width=device-width,initial-scale=1">'
-                '<meta name="color-scheme" content="light dark"><title>Imaginal</title>'
+                '<meta name="color-scheme" content="light dark"><title>Imaginal</title>' + ICON_LINK
                 + HEAD_JS + '<style>' + CSS + '</style>'
                 '<noscript><style>[hidden].panel{display:block!important}tr.drow[hidden]{display:table-row!important}</style></noscript>'
                 '</head><body><div class="wrap">' + body + '</div><script>' + JS + '</script></body></html>\n')
