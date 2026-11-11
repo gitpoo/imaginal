@@ -4,6 +4,8 @@ Claude and I built *Imaginal,* named for the cells that carry a caterpillar thro
 
 Imaginal measures what survives when an AI agent's memory is rebuilt. A working session is parked, then a fresh agent picks it up from a trace of that session and nothing else. Imaginal scores what the new agent still knows, what it lost, and whether it acts on a claim that a later note retracted.
 
+**What this is not.** Imaginal is not a memory system. Tools such as [claude-mem](https://github.com/thedotmack/claude-mem) decide what an agent's sessions leave behind and how cheaply it comes back. Imaginal asks what the next agent does with what it is handed, including when that has been retracted. The two meet at one point. When an agent goes to read a file it has history for, claude-mem (as of November 2026) either adds that history as context beside the read or blocks the read and hands back the history instead, and it picks by file size, to save tokens. Imaginal measures which kind of delivery changes the agent's next move.
+
 The results are one self-contained page: **[gitpoo.github.io/imaginal](https://gitpoo.github.io/imaginal/)**. It is `runs/demo.html` in this repo, served as is.
 
 ## Read this first
@@ -103,6 +105,7 @@ Please try. Ways it might be wrong:
 - **The world.** Write a trap that dating can't catch. `runs/demo_live.json` is one attempt.
 - **The fixture.** Two slips are already known and were left as they were when the runs were made. The transcript calls 9/2/2026 a Tuesday. It was a Wednesday, and several agents say so. One note says "her program" about an apprentice named Jonah.
 - **Another model.** Pass `--model` and see whether the gap holds.
+- **A real memory system.** The three traces are stand-ins written for this experiment. Put the parked session through a real memory tool and add what it hands the next agent as a fourth trace.
 
 Open an issue with the run file, the cell (seed, trace, condition) and the score you think is right.
 
