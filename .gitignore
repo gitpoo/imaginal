@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# generated on your machine by make_corpus.py; file modification times carry the planted signals
+fixtures/synthetic/seed*/
+fixtures/synthetic/live/
+
+# local run byproducts
+runs/cli_sandbox/
+runs/rehearsal/
+*.log
+
+# never commit a key
+api_key
+.env
