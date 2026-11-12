@@ -8,17 +8,6 @@ Imaginal measures what survives when an AI agent's memory is rebuilt. A working 
 
 The results are one self-contained page: **[gitpoo.github.io/imaginal](https://gitpoo.github.io/imaginal/)**. It is `runs/demo.html` in this repo, served as is.
 
-## Read this first
-
-- **Small sample.** Three synthetic worlds, 45 runs in all. Each cell in the results is a count, not a rate. The headline compares 8 cases with 5.
-- **Keyword scoring.** Answers are scored by matching keywords against hand-written ground truth. It can miss a correct paraphrase and credit a lucky phrase. One false positive has already been found and fixed (below). Every cell on the page opens to the agent's own words so you can check the score.
-- **One model.** Every agent was Claude Sonnet 5.5 (`claude-sonnet-5-5`, as recorded in `runs/demo.json`). The same model wrote the two model-written traces.
-- **Synthetic data only.** Every note, person, business and reference number is made up by `fixtures/synthetic/make_corpus.py`. No real memory is in this repo. Real colleges, cities, web hosts and equipment makers are named as background detail and nothing is claimed about them. The names of people and small businesses were invented, and one of them, Piedmont Mutual, turns out to match a real insurer. No reference to it or to any other real person or business is intended.
-- **Not a blind test.** The same Claude sessions built the harness, wrote the ground truth and ran the matrix.
-- **The trap had no headroom.** With no help at all, agents avoided the retracted deadline in 9 of 9 runs. They noticed the date had passed and proposed to check first; only 1 of the 9 read the note that holds the retraction. So these runs can't show that surfacing a retraction helps an agent avoid the trap. What they can show is how an agent responds when the retraction is put in front of it.
-- **The comparison is partly built in.** An agent whose answer is refused has to submit again. An agent handed a note may simply stop. What the refusal does not force is a different answer.
-- **The "compaction" trace is an imitation.** It is one summary from one model call, written under a prompt modeled on the compaction prompt Claude Code ships. The prompt's first sentence and five of its nine section names are the same as Claude Code's. The rest is adapted from code to notes. It is not Claude Code's compaction, and nothing here measures that product. The saved run files and the page still carry the earlier label, "the baseline that ships today".
-
 ## The finding
 
 The same retraction line, the same words, works or doesn't depending on how it's delivered.
@@ -29,6 +18,17 @@ The same retraction line, the same words, works or doesn't depending on how it's
 | As a refusal: its answer was rejected until it resubmitted (condition 2h) | 5 | 5 |
 
 None of the 8 agents that got the relevant note resubmitted. All 8 kept their first answer, and that answer still concerned the retracted claim. The scorer marks one of the eight as acting on it (a call to the insurer for confirmation). The other seven proposed to ask about it first. Given the refusal, all 5 changed their next action to other pending work and none acted on the claim. Two of the five still mention the rider: one to say not to call about the old deadline, one to note its new end date. The refusal cost nothing measurable elsewhere: the trap was caught in 9 of 9 refusal runs, and mean rubric survival was 93.4 percent, against 91.3 with no help.
+
+## Read this first
+
+- **Small sample.** Three synthetic worlds, 45 runs in all. Each cell in the results is a count, not a rate. The headline compares 8 cases with 5.
+- **Keyword scoring.** Answers are scored by matching keywords against hand-written ground truth. It can miss a correct paraphrase and credit a lucky phrase. One false positive has already been found and fixed (below). Every cell on the page opens to the agent's own words so you can check the score.
+- **One model.** Every agent was Claude Sonnet 5.5 (`claude-sonnet-5-5`, as recorded in `runs/demo.json`). The same model wrote the two model-written traces.
+- **Synthetic data only.** Every note, person, business and reference number is made up by `fixtures/synthetic/make_corpus.py`. No real memory is in this repo. Real colleges, cities, web hosts and equipment makers are named as background detail and nothing is claimed about them. The names of people and small businesses were invented, and one of them, Piedmont Mutual, turns out to match a real insurer. No reference to it or to any other real person or business is intended.
+- **Not a blind test.** The same Claude sessions built the harness, wrote the ground truth and ran the matrix.
+- **The trap had no headroom.** With no help at all, agents avoided the retracted deadline in 9 of 9 runs. They noticed the date had passed and proposed to check first; only 1 of the 9 read the note that holds the retraction. So these runs can't show that surfacing a retraction helps an agent avoid the trap. What they can show is how an agent responds when the retraction is put in front of it.
+- **The comparison is partly built in.** An agent whose answer is refused has to submit again. An agent handed a note may simply stop. What the refusal does not force is a different answer.
+- **The "compaction" trace is an imitation.** It is one summary from one model call, written under a prompt modeled on the compaction prompt Claude Code ships. The prompt's first sentence and five of its nine section names are the same as Claude Code's. The rest is adapted from code to notes. It is not Claude Code's compaction, and nothing here measures that product. The saved run files and the page still carry the earlier label, "the baseline that ships today".
 
 ## How it works
 
