@@ -1,0 +1,28 @@
+Access Claude-Mem Rules + Tools: ~/.claude-mem/RULES-AND-TOOLS.md
+
+### Aug 28, 2026
+1 3:51p ○ Equipment rider on guillotine cutter requires appraisal by 2026-11-15
+2 " ○ Lindqvist-Abara wedding album order requires quote by 2026-09-02
+3 " ○ Sprinter van registration expires 2026-09-30, owner renews directly
+4 " ○ Canal Park Annex Thursday workshop hold expires 2026-09-15 pending $300 deposit
+5 " ⚖ Website migration from Northpoint Hosting to Wix planned for September
+S2 Fall planning for Harrow & Thread Bindery: loaded equipment rider, Lindqvist-Abara album, van registration, fall workshop venue, and website host records to sort deadlines for the next two weeks; then recorded the website hosting decision. (Aug 28 at 3:53 PM)
+S1 Fall planning for Harrow & Thread Bindery: pulled equipment rider, Lindqvist-Abara album, van registration, fall workshop venue, and website host records to identify deadlines in the next two weeks. (Aug 28 at 3:53 PM)
+6 3:56p ⚖ Wix migration dropped; Northpoint Hosting renewed through 2027-08-25
+S3 Fall planning for Harrow & Thread Bindery: sorting two-week deadlines across the equipment rider, Lindqvist-Abara album, van, workshop venue, and website, then looking up the 2025 pricing archive to price the album quote. (Aug 28 at 3:56 PM)
+S4 Lindqvist-Abara album quote at $1,850 due Tuesday 9/2; confirmed proof-scan destination for the album (Aug 28 at 3:59 PM)
+S5 Logged two decisions for the fall workshop series: Priya's raise to $19/hr effective 9/1, and dropping Saturday so the series runs Thursdays only; noted the Canal Park Annex hold requirements. (Aug 28 at 4:03 PM)
+S6 Plan the equipment rider appraisal follow-up: send the appraisal PDF to Ivan Petrosyan at Lakeshore Mutual after 8/31 and secure written confirmation before the 11/15 rider deadline. (Aug 28 at 4:07 PM)
+S7 Confirm there is no action needed on the grant decisions and note the two later deadlines (Quire's booster and the Q3 estimated tax) that were not loaded today. (Aug 28 at 4:11 PM)
+S8 Write the Harrow & Thread Bindery fall planning handoff with the insurer call as the next action (Aug 28 at 4:15 PM)
+7 4:40p ✓ Handoff document written for Harrow & Thread Bindery fall planning session
+S9 Park the Harrow & Thread Bindery fall planning session; the handoff carries everything needed to resume (Aug 28 at 4:41 PM)
+**Investigated**: Nothing new examined in this checkpoint. The earlier review covered the equipment policy, Lindqvist-Abara album order, van registration, fall workshop venue, and studio website host notes.
+
+**Learned**: The session is parked until after fair season. Resumption depends only on the handoff document, which lists the four pending items and the 9/1 insurer call as the next action.
+
+**Completed**: Handoff written to session/HANDOFF_2026-08-28_1640_harrow.md. The session is now parked; no further work was done in this checkpoint.
+
+**Next Steps**: When resumed, start with the 9/1 call to Ivan Petrosyan at Lakeshore Mutual to send the appraisal PDF and secure written confirmation before 11/15. Then work the album quote (due 9/2), venue hold and deposit (due 9/15), and van renewal (due 9/30).
+
+**Notes**: The handoff is the single source for resumption. The insurer call depends on the 8/31 appraisal producing the PDF first, so that dependency should be checked on resume.

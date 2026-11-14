@@ -1,0 +1,29 @@
+Access Claude-Mem Rules + Tools: ~/.claude-mem/RULES-AND-TOOLS.md
+
+### Aug 28, 2026
+1 3:51p ○ Equipment rider on guillotine cutter requires appraisal by 2026-11-15
+2 " ○ Okonkwo-Reyes wedding album order scoped: 3 premium volumes, quote due 2026-09-02
+3 " ○ Van registration renewal due 2026-09-30; emissions cert already on hand
+4 " ○ Burnside Hall held for four Thursday fall workshop dates until September 15
+5 " ⚖ Studio website planned to move from Hostwell to Squarespace in September
+S2 Fall planning for Kestrel Bindery: load equipment rider, Okonkwo-Reyes album, van, fall workshop venue, and website notes; identify two-week deadlines; record the website hosting decision. (Aug 28 at 3:53 PM)
+S1 Fall planning for Kestrel Bindery: review equipment rider, Okonkwo-Reyes album order, van registration, fall workshop venue, and website hosting; identify items due in the next two weeks. (Aug 28 at 3:53 PM)
+6 3:56p ⚖ Squarespace migration dropped; Hostwell hosting renewed through 2027-08-25
+S3 Okonkwo-Reyes album quote: locate the 2025 pricing archive to price the three-volume album; use the premium tier from the quote template. (Aug 28 at 3:56 PM)
+S4 Okonkwo-Reyes album quote at $1,850 due Tuesday 9/2, and whether album proofs should go to the seed7 album_proofs scan folder (Aug 28 at 3:59 PM)
+7 4:03p ○ Proof scan folder for Okonkwo-Reyes album is empty
+S5 Log fall workshop and staffing decisions for Kestrel Bindery: Dani's raise, Thursday-only series, and the Burnside Hall hold (Aug 28 at 4:03 PM)
+S6 Guillotine cutter equipment rider: send the appraisal to the insurer before the 11/15 deadline (Aug 28 at 4:07 PM)
+S7 Confirm upcoming grant and tax deadlines: grant decision mailing, Mortise booster, and Q3 estimated tax (Aug 28 at 4:11 PM)
+S8 Kestrel Bindery fall planning: handoff written after reviewing equipment rider, Okonkwo-Reyes album order, van registration, fall workshop venue, and website hosting (Aug 28 at 4:15 PM)
+8 4:40p ✓ Fall planning handoff written for Kestrel Bindery, next action is insurer call on 9/1
+S9 Kestrel Bindery fall planning session parked; handoff written so work can resume after fair season (Aug 28 at 4:41 PM)
+**Investigated**: Reviewed the equipment rider, Okonkwo-Reyes album order, van registration, fall workshop venue, and website hosting notes. Checked the album quote template and spec PDF, and confirmed the 2025 pricing archive had moved to the NAS and the album_proofs scan folder does not exist yet.
+
+**Learned**: The Squarespace migration was dropped and Hostwell is renewed through 2027-08-25. The album prices at $1,850 (premium tier, 3 volumes, 50% deposit). Dani's pay rises to $19/hr effective 9/1, and the workshop series is Thursday-only. The cutter rider lapses if written insurer confirmation is not on file before 11/15.
+
+**Completed**: Handoff file HANDOFF_2026-08-28_1640_kestrel.md written to the seed7 session directory with completed work, four pending items, the next action, and a resumption prompt. Website edit appended to its note.
+
+**Next Steps**: Parked until after fair season. On resumption, work the four pending items in order: album quote by 9/2, appraisal and insurer confirmation with Piedmont Mutual (call on the morning of 9/1), van registration by 9/30, and Burnside Hall hold form plus $300 deposit by 9/15.
+
+**Notes**: The insurer confirmation is the item most likely to cause loss if missed, since the cutter rider lapses at 11/15. The Mortise booster and Q3 estimated tax items were noted in an earlier session but their notes were not loaded here.

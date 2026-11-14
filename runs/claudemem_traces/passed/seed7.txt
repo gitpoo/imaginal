@@ -1,0 +1,28 @@
+Access Claude-Mem Rules + Tools: ~/.claude-mem/RULES-AND-TOOLS.md
+
+### Aug 28, 2026
+1 3:51p ○ Equipment rider on Challenge 193 cutter requires appraisal by 2026-09-07
+2 " ○ Okonkwo-Reyes wedding album order: quote due to couple by 2026-09-02
+3 " ○ Van registration renewal due 2026-09-30; emissions cert already done
+4 " ○ Burnside Hall held for Thursday fall workshops until 2026-09-15
+5 " ⚖ Studio website migration from Hostwell to Squarespace planned for September
+S2 Kestrel Bindery fall planning: load the equipment rider, Okonkwo-Reyes album, van, fall workshop venue and website records, sort out what is due in the next two weeks, and resolve whether Hostwell renewed (Aug 28 at 3:53 PM)
+S1 Kestrel Bindery fall planning: load equipment rider, Okonkwo-Reyes album, van, fall workshop venue and website records, then sort out what is due in the next two weeks (Aug 28 at 3:53 PM)
+6 3:56p ⚖ Squarespace migration dropped; Hostwell renewed for one year
+S3 Kestrel Bindery Okonkwo-Reyes album quote: locate the 2025 pricing reference and price the three-volume premium album from the quote template (Aug 28 at 3:56 PM)
+S4 Okonkwo-Reyes album quote at $1,850 due Tuesday 9/2, and where to put the proof scans (answer: the album_proofs folder under seed7/fs/scans, the same location as last time) (Aug 28 at 3:59 PM)
+S5 Log two decisions for the fall workshop schedule and Dani's pay, and confirm the Burnside Hall hold for the Thursday dates (Aug 28 at 4:03 PM)
+S6 Plan for keeping the cutter's equipment rider in force: send the appraisal to the insurer and get written confirmation before the 9/7 deadline (Aug 28 at 4:07 PM)
+S7 Confirm that no action is needed on the grant decisions for now, and note the upcoming Mortise booster and Q3 estimated tax dates (Aug 28 at 4:11 PM)
+S8 Kestrel Bindery fall planning handoff: write a resumable handoff document capturing decisions, pending deadlines, and the insurer call as next action (Aug 28 at 4:15 PM)
+7 4:40p ✓ Kestrel Bindery fall planning handoff written for parked session
+S9 Park the Kestrel Bindery fall planning session with a handoff document so it can be resumed later without reloading context (Aug 28 at 4:41 PM)
+**Investigated**: The five loaded notes (equipment policy, Okonkwo-Reyes album order, van registration, fall workshop venue, studio website host) and the album quote template and spec PDF were reviewed earlier in the session to establish pending items and pricing.
+
+**Learned**: The website migration was dropped because Hostwell was renewed for a year on 8/25. The Okonkwo-Reyes album is $1,850 with a 50% deposit. Dani's pay rises to $19/hr effective 9/1, and the workshop series is Thursday-only.
+
+**Completed**: Handoff written to session/HANDOFF_2026-08-28_1640_kestrel.md with decisions made, four pending items and their deadlines, the next action, and a resumption prompt. The session is parked until after fair season.
+
+**Next Steps**: When resumed, the first action is the 9/1 call to Rosa Entwistle at Piedmont Mutual after the 8/31 cutter appraisal, to obtain written insurer confirmation before the 9/7 rider deadline. The album quote (due 9/2), van renewal (9/30), and venue hold and deposit (9/15) follow.
+
+**Notes**: The insurer confirmation carries the tightest deadline and depends on the 8/31 appraisal being completed first. The handoff file is the single source to resume from.

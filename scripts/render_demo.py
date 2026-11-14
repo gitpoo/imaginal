@@ -312,6 +312,28 @@ class Page:
     def pid(self, arm, tag):
         return f"p-{slug(arm.get('key'))}-{slug(tag)}"
 
+    @staticmethod
+    def cut_off(row):
+        """A note-condition run the harness ended one turn after the notice: no new submission, and the last model turn was a tool call."""
+        ev = row.get("evidence") if isinstance(row.get("evidence"), dict) else {}
+        stops = ev.get("stop_reasons") if isinstance(ev.get("stop_reasons"), list) else []
+        return bool(ev.get("injections")) and ev.get("resubmitted_after_injection") is False and bool(stops) and stops[-1] == "tool_use"
+
+    def correction(self):
+        """Shown only when the saved run holds runs that were ended early (see "The finding" in the README)."""
+        n = sum(1 for r in self.rows if self.cut_off(r))
+        if not n:
+            return ""
+        p1 = ("In conditions 2 and 2d the harness ended a run one turn after the notice, unless that turn was a new submission. "
+              f"{n} run{'' if n == 1 else 's'} on this page {'was' if n == 1 else 'were'} ended that way while the agent was still re-checking, "
+              "before it could answer again. Each of those runs is scored on its first answer.")
+        p2 = ("So the comparison on this page between the note conditions and the refusal is wrong: the zeros under conditions 2 and 2d are the harness, "
+              "not the agents. " if any(str(c.get("key")) == "2h" for c in self.conds) else "")
+        p2 += ("In later runs with the early ending removed (passed-deadline worlds, not on this page) the note changed the agent's next action "
+               "in 11 of 11 runs.")
+        return ('<div class="banner" role="note" style="margin-top:16px"><p class="eyebrow">Correction, November 14, 2026</p>'
+                f'<p>{esc(p1)}</p><p>{esc(p2)} <a href="{esc(REPO_URL)}#the-finding">The README has the corrected result.</a></p></div>')
+
     # --- 1. header, banner, framing
     def header(self):
         d = self.d
@@ -422,7 +444,10 @@ class Page:
             if get(i, "first_answer", "next_action") is not None:
                 bits.append(f'<p class="kv">Next action in its first answer, before the notice: {esc(get(i, "first_answer", "next_action"))}</p>')
         rs = get(row, "evidence", "resubmitted_after_injection")
-        if rs is not None:
+        if rs is not None and self.cut_off(row):
+            bits.append('<p class="kv">After the notice the agent made another tool call, and the harness ended the run there, '
+                        'before it could answer again. Its first answer was kept.</p>')
+        elif rs is not None:
             bits.append(f'<p class="kv">After the notice the agent {"resubmitted an answer" if rs else "kept its first answer"}.</p>')
         return "".join(bits)
 
@@ -531,8 +556,16 @@ class Page:
                 pooled.append(f"condition {ck} ({c.get('label')}): revised {rv} of {fr}")
         rev = ""
         if pooled:
+            rel = [r for r in self.rows if str(r.get("condition")) in ("2", "2d")
+                   and any(isinstance(m, dict) and m.get("relevant") for m in (get((get(r, "evidence", "injections") or [None])[0] or {}, "matches") or []))]
+            ncut = sum(1 for r in rel if self.cut_off(r))
+            tail = ""
+            if ncut:
+                tail = (f" {'All ' + str(ncut) if ncut == len(rel) else str(ncut) + ' of the ' + str(len(rel))} condition 2 and 2d runs counted here were ended "
+                        "by the harness one turn after the notice, before the agent could answer again, so their zeros are not the agents' choice. "
+                        "See the correction at the top of this page.")
             rev = ('<p class="muted cap">' + esc("Revisions after the line, pooled over traces and counting only injections that matched the retraction: "
-                                                + "; ".join(pooled) + ". The same line, the same tokens; what differs is whether the agent could finish without engaging it.") + "</p>")
+                                                + "; ".join(pooled) + "." + tail) + "</p>")
         return (f'<div><h3>Row {esc(self.trap_n)} by salience condition (all conditions, pooled over seeds)</h3><p class="muted cap">{esc(cap)}</p>'
                 f'<div class="scroll sal"><table class="dt"><thead>{head}</thead><tbody>{body}</tbody></table></div>{rev}</div>')
 
@@ -687,7 +720,7 @@ class Page:
                 f'<p class="muted src">Code, saved runs and README: <a href="{esc(REPO_URL)}">{esc(REPO_URL.split("//", 1)[-1])}</a></p></footer>')
 
     def build(self):
-        body = "".join([self.header(), self.intro(), self.session(), self.traces(), self.rubric_section(), self.bars(), self.limits(), self.footer()])
+        body = "".join([self.header(), self.correction(), self.intro(), self.session(), self.traces(), self.rubric_section(), self.bars(), self.limits(), self.footer()])
         return ('<!doctype html>\n<html lang="en"><head><meta charset="utf-8">'
                 '<meta name="viewport" content="width=device-width,initial-scale=1">'
                 '<meta name="color-scheme" content="light dark"><title>Imaginal</title>' + ICON_LINK

@@ -1,0 +1,15 @@
+{
+ "tool": "claude-mem",
+ "version": "15.18.0",
+ "package": "npm claude-mem@15.18.0 (plugin build as published), run under Bun 1.4.4",
+ "what": "The text claude-mem's SessionStart hook returned as additionalContext for a NEW session in the same project folder, verbatim.",
+ "fed": "The parked session of each world, replayed through claude-mem's own Claude Code hook command (SessionStart, UserPromptSubmit, PreToolUse, PostToolUse, Stop, SessionEnd), one hook call per transcript event.",
+ "clock": "claude-mem's JavaScript clock was set to the session's own times (2026-08-28, 3:50 PM to 4:41 PM) during the replay and to 2026-10-31 10:00 AM for the new session.",
+ "observer": "claude-mem's openai-compatible provider pointed at a local relay to the Anthropic Messages API, model claude-haiku-5-5 (its default model alias is haiku), thinking off as it ships. Its default provider runs through Claude Code on a subscription and was not used.",
+ "settings": "Defaults except: provider and model as above, vector search (Chroma) off, auto-update off, quota fallback off, telemetry off. No sign-in, no hosted observer, no Cloud Sync.",
+ "isolation": "Throwaway HOME per world; sandboxed so it could not read or write the real home folder or reach any host but localhost.",
+ "not_given_to_the_agent": "claude-mem's own search tools (search, timeline, get_observations) and the rules file its first line points to. The agent had the harness's note tools only, like the other arms.",
+ "runs_per_world": 1,
+ "captured": "2026-11-12",
+ "variant": "passed"
+}

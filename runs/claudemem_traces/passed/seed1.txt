@@ -1,0 +1,29 @@
+Access Claude-Mem Rules + Tools: ~/.claude-mem/RULES-AND-TOOLS.md
+
+### Aug 28, 2026
+1 3:51p ○ Equipment rider on guillotine cutter requires appraisal by 2026-09-07
+2 " ○ Okonkwo-Reyes wedding album order: quote due 2026-09-02
+3 " ○ Van registration renewal due 2026-09-30
+4 " ○ Burnside Hall held for fall Thursday workshops until 9/15
+5 " ⚖ Plan to migrate studio website from Hostwell to Squarespace
+S2 Fall planning for Kestrel Bindery: load the equipment rider, Okonkwo-Reyes album, van, fall workshop venue, and website notes, then sort out what is due in the next two weeks. Follow-up: record the website decision in the website note. (Aug 28 at 3:53 PM)
+S1 Fall planning for Kestrel Bindery: load equipment rider, Okonkwo-Reyes album, van, fall workshop venue, and website notes, then sort out what is due in the next two weeks. (Aug 28 at 3:53 PM)
+6 3:56p ⚖ Squarespace migration dropped; Hostwell renewed for one year
+S3 Fall planning for Kestrel Bindery: load the equipment rider, Okonkwo-Reyes album, van, fall workshop venue, and website notes, then sort out what is due in the next two weeks. Follow-up: locate the 2025 pricing spreadsheet and price the Okonkwo-Reyes album quote. (Aug 28 at 3:56 PM)
+S4 Okonkwo-Reyes album quote and proof scan placement: quote at $1,850 due to the couple by Tuesday 9/2, and confirming where proof scans should be staged (Aug 28 at 3:59 PM)
+7 4:03p ○ Album proof scan folder under seed1 fixtures is empty
+S5 Logging fall workshop and staffing decisions: Dani's raise to $19/hr effective 9/1, and the Thursday-only workshop series with Saturday dropped, with Burnside Hall held through 9/15 (Aug 28 at 4:03 PM)
+S6 Cutter equipment rider appraisal follow-up: send the appraisal PDF to Rosa Entwistle at Piedmont Mutual and secure written confirmation on file before the 9/7 rider deadline (Aug 28 at 4:07 PM)
+S7 Checking upcoming non-urgent deadlines: grant decision mailing and the Mortise booster and Q3 estimated tax dates, none of which required action today (Aug 28 at 4:11 PM)
+S8 Kestrel Bindery fall planning handoff: wrote a handoff file parking the session until after fair season, covering website decision, album quote, staffing, insurer appraisal, and pending deadlines (Aug 28 at 4:15 PM)
+8 4:40p ✓ Kestrel Bindery fall planning handoff written for session parked until after fair season
+S9 Kestrel Bindery fall planning: session parked after writing a handoff file so work can resume after fair season (Aug 28 at 4:41 PM)
+**Investigated**: Five planning notes loaded this session: equipment policy, Okonkwo-Reyes album order, van registration, fall workshop venue, and studio website host. Album pricing spreadsheet and proof scan folder locations checked in the seed1 fixture filesystem.
+
+**Learned**: Website migration to Squarespace was dropped; Hostwell was renewed for one year on 8/25. The 2025 pricing spreadsheet has moved to the NAS and is no longer local. The album proof scans folder does not exist yet. Dani's raise to $19/hr takes effect 9/1, and the workshop series is Thursday-only with Saturday dropped.
+
+**Completed**: Handoff file HANDOFF_2026-08-28_1640_kestrel.md written, covering what was done, four pending items, the next action, and a resumption prompt. Website note appended with the Hostwell renewal decision. Album quote details recorded: premium tier, 3 volumes, $1,850, 50% deposit.
+
+**Next Steps**: Parked until after fair season. On resume, work the four pending items in order: send the Okonkwo-Reyes quote by 9/2; the 8/31 appraisal at Highland Appraisals with the PDF to Rosa Entwistle at Piedmont Mutual; van registration renewal by 9/30; and the Burnside Hall hold form and $300 deposit before 9/15. The first action is the insurer confirmation call on the morning of 9/1.
+
+**Notes**: The 9/7 insurer confirmation deadline is the tightest hard constraint, since the cutter rider ends without written confirmation on file. The Burnside Hall deposit and Q3 estimated tax both fall on 9/15 and should be checked together. The Mortise booster date (9/20) remains unverified against its source note.

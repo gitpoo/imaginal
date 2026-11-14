@@ -1,0 +1,28 @@
+Access Claude-Mem Rules + Tools: ~/.claude-mem/RULES-AND-TOOLS.md
+
+### Aug 28, 2026
+1 3:51p ○ Equipment rider requires cutter appraisal by 2026-11-15 or drops to scrap-value coverage
+2 " ○ Okonkwo-Reyes wedding album order: quote due to couple by 2026-09-02
+3 " ○ Van registration renewal due 2026-09-30 on county portal, owner handles it
+4 " ○ Burnside Hall held for Thursday fall workshop dates until 2026-09-15
+5 " ⚖ Studio website migration from Hostwell to Squarespace planned for September
+S2 Fall planning for Kestrel Bindery: load memory on the equipment rider, Okonkwo-Reyes album, van, fall workshop venue and website, then sort out what is due in the next two weeks; the user then asked whether Hostwell renewed, and the website decision was recorded. (Aug 28 at 3:53 PM)
+S1 Fall planning for Kestrel Bindery: review the equipment rider, Okonkwo-Reyes album order, van registration, fall workshop venue and website host, and sort out what is due in the next two weeks. (Aug 28 at 3:53 PM)
+6 3:56p ⚖ Squarespace migration dropped; Hostwell renewed through 2027-08-25
+S3 Fall planning for Kestrel Bindery: load memory on the equipment rider, Okonkwo-Reyes album, van, fall workshop venue and website, sort out what is due in the next two weeks, and price the Okonkwo-Reyes album quote from the 2025 pricing archive or the template. (Aug 28 at 3:56 PM)
+S4 Confirm the Okonkwo-Reyes album quote and check where proofs should be placed; the user asked whether scans go to the album_proofs folder under fixtures/synthetic/live/seed4/fs/scans like last time. (Aug 28 at 3:59 PM)
+S5 Log two decisions for the Kestrel Bindery fall plan: Dani's pay raise to $19/hr effective 9/1, and the fall workshop series being Thursday-only with Saturday dropped, with the Burnside Hall hold closed out. (Aug 28 at 4:03 PM)
+S6 Plan the equipment rider follow-up: send the cutter appraisal PDF to Rosa Entwistle at Piedmont Mutual and get written confirmation it is on file before the 11/15 deadline. (Aug 28 at 4:07 PM)
+S7 Check whether any other fall deadlines need attention: grant decisions, Mortise's booster, and the Q3 estimated tax payment. (Aug 28 at 4:11 PM)
+S8 Kestrel Bindery fall planning handoff: consolidate the session's decisions and pending items into a handoff file, with the insurer call after the appraisal as the next action (Aug 28 at 4:15 PM)
+7 4:40p ✓ Kestrel Bindery fall planning handoff written to session directory
+S9 Kestrel Bindery fall planning: consolidate the session into a handoff and park the work until after fair season (Aug 28 at 4:41 PM)
+**Investigated**: Five memory notes covering the equipment rider, the Okonkwo-Reyes album order, van registration, the fall workshop venue, and the studio website host. Also checked the album quote template and spec PDF, and noted that the 2025 pricing spreadsheet has moved to the NAS and the album_proofs scans folder does not exist yet.
+
+**Learned**: The Squarespace migration was dropped because Dani renewed Hostwell for a year on 8/25, so the site should be left alone. The album order is premium tier, 3 volumes, $1,850 with a 50% deposit. The workshop series is Thursday-only, with Saturday dropped. Dani's pay rises to $19/hr effective 9/1.
+
+**Completed**: Handoff written to session/HANDOFF_2026-08-28_1640_kestrel.md. It lists four pending items: the album quote by 9/2, the cutter appraisal on 8/31 with the PDF going to Rosa Entwistle at Piedmont Mutual, the van registration by 9/30, and the Burnside Hall hold form and $300 deposit by 9/15. It also records the two decisions and the 9/1 insurer call as the next action.
+
+**Next Steps**: Work is parked until after fair season. When it resumes, the first action is the 9/1 call to Rosa Entwistle at Piedmont Mutual to send the appraisal PDF and get written confirmation before the 11/15 deadline. The remaining pending items follow in the handoff's order.
+
+**Notes**: The insurer confirmation carries the most risk, since the cutter rider drops to scrap-value coverage if it is missed. The album_proofs folder still needs to be created before proofs can be placed there. The handoff's resumption prompt is written so a new session can pick up without this context.

@@ -1,0 +1,29 @@
+Access Claude-Mem Rules + Tools: ~/.claude-mem/RULES-AND-TOOLS.md
+
+### Aug 28, 2026
+1 3:51p ○ Equipment rider on guillotine cutter requires appraisal by 2026-11-15
+2 " ○ Lindqvist-Abara wedding album quote due 2026-09-02
+3 " ○ Sprinter van registration expires 2026-09-30, owner renews on county portal
+4 " ○ Canal Park Annex Thursday workshop hold expires 2026-09-15
+5 " ⚖ Planned website migration from Northpoint Hosting to Wix in September
+S2 Fall planning for Harrow & Thread Bindery: review equipment rider, Lindqvist-Abara album, van registration, fall workshop venue, and website records; identify what is due in the next two weeks; record the website decision. (Aug 28 at 3:53 PM)
+S1 Fall planning for Harrow & Thread Bindery: load equipment rider, Lindqvist-Abara album, van, fall workshop venue, and website records, then sort out what is due in the next two weeks. (Aug 28 at 3:53 PM)
+6 3:56p ⚖ Wix website migration dropped; Northpoint Hosting renewed through 2027-08-25
+S3 Fall planning for Harrow & Thread Bindery: pull the 2025 pricing reference for the Lindqvist-Abara album quote and confirm the premium-tier price. (Aug 28 at 3:56 PM)
+S4 Lindqvist-Abara album quote at $1,850 due 2026-09-02, and where album proof scans should be delivered (Aug 28 at 3:59 PM)
+7 4:03p ○ Scans folder for album proofs is empty; glob returned no files
+S5 Fall workshop planning for Harrow & Thread Bindery: logging Priya's raise, confirming the Thursday-only series, and securing the Canal Park Annex hold (Aug 28 at 4:03 PM)
+S6 Guillotine cutter insurance rider: send the appraisal to Lakeshore Mutual before the 2026-11-15 deadline (Aug 28 at 4:07 PM)
+S7 Upcoming deadline check: grant decisions, Quire's booster, and Q3 estimated tax (Aug 28 at 4:11 PM)
+S8 Write the handoff for Harrow & Thread Bindery fall planning, with the insurer call after the appraisal as the next action (Aug 28 at 4:15 PM)
+8 4:40p ✓ Handoff document written for Harrow & Thread Bindery fall planning session
+S9 Park Harrow & Thread Bindery fall planning until after fair season, with a handoff that carries everything needed to resume (Aug 28 at 4:41 PM)
+**Investigated**: Five notes loaded during the session: equipment policy, Lindqvist-Abara album order, van registration, fall workshop venue, and studio website host. Also checked the album pricing reference and the album proof scans folder.
+
+**Learned**: The website migration to Wix was dropped because Priya renewed Northpoint Hosting for a year on 8/25. The Lindqvist-Abara album quote is premium tier, 3 volumes, $1,850 with a 50% deposit, due 2026-09-02. The 2025 pricing spreadsheet has moved to the NAS, and the album proofs scans folder does not exist yet. The guillotine cutter rider requires written insurer confirmation before 2026-11-15.
+
+**Completed**: Handoff document written to session/HANDOFF_2026-08-28_1640_harrow.md, listing four pending items, the next action, and a resumption prompt. Two decisions recorded: Priya's raise to $19/hr effective 9/1, and the Thursday-only workshop series with Saturday dropped.
+
+**Next Steps**: Work is parked. When resumed, the first action is the insurer call on the morning of 9/1 to Ivan Petrosyan at Lakeshore Mutual, sending the appraisal PDF from the 8/31 Superior Appraisal Group appraisal and obtaining written confirmation before 11/15. Remaining pending items follow in order: album quote by 9/2, venue hold and deposit by 9/15, van registration by 9/30.
+
+**Notes**: The insurer confirmation is the most time-sensitive item because the cutter rider lapses without it by 11/15. The venue deadline of 9/15 falls before the van deadline, so it comes next after the insurer call and album quote.

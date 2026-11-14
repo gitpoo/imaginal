@@ -14,5 +14,14 @@ Saved results. Everything here is synthetic. The top-level README says what the 
 | `demo_live_rescored.json` | The same 36 runs re-scored after one scorer false positive was fixed ("no longer" added to the negation list). One row changes: seed 3, compaction, condition 1, from acted to caught. |
 | `demo_live.html` | The page rendered from `demo_live.json`. |
 | `traces_live_seed1.json`, `traces_live_seed2.json`, `traces_live_seed3.json` | The traces for the live variant. |
+| `note_continued_2026-11-13.json`, `note_continued_more_2026-11-13.json` | Condition 2c, the note with the run left to go on: 12 runs on four traces, then 6 more on the full transcript. Made with `scripts/framing_control.py`. |
+| `framing_control_2026-11-13.json`, `framing_control_more_2026-11-13.json` | Condition 2r, a note plus one sentence saying the answer was not recorded, on the same 18 cells. |
+| `claudemem_2026-11-12.json` | claude-mem's trace, deadline already passed, seeds 1 to 3, conditions 0, 1, 2, 2d, 2h. 15 runs. Made with `scripts/fourth_trace.py`. |
+| `claudemem_live_2026-11-12.json` | The same with the deadline still ahead, conditions 0, 1, 2, 2d. 12 runs. |
+| `claudemem_nohelp_more_2026-11-12.json`, `claudemem_live_nohelp_more_2026-11-12.json` | No help, seeds 4 to 9, 6 runs each, every run on its own claude-mem pass. |
+| `claudemem_traces/` | The 18 texts claude-mem injected, with `provenance.json`. |
+| `claudemem_2026-11-12_writeup.md` | Longer notes on the claude-mem run. |
 
-Paths inside these files begin `~/.claude/skills/memory-rot-audit/`. That is where the repo sat when the runs were made. See "Rerun it" in the top-level README.
+In every file here, conditions 2 and 2d ended early. See "The finding" in the top-level README.
+
+Paths inside the files made before 11/12 begin `~/.claude/skills/memory-rot-audit/`. That is where the repo sat when those runs were made. The later files were made with the repo at `~/imaginal-public`. See "Rerun it" in the top-level README.

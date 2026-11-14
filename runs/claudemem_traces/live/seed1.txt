@@ -1,0 +1,28 @@
+Access Claude-Mem Rules + Tools: ~/.claude-mem/RULES-AND-TOOLS.md
+
+### Aug 28, 2026
+1 3:51p ○ Equipment rider on guillotine cutter requires appraisal by 2026-11-15
+2 " ○ Okonkwo-Reyes wedding album quote due 2026-09-02
+3 " ○ Van registration renewal due 2026-09-30
+4 " ○ Burnside Hall workshop dates held until 2026-09-15 pending $300 deposit
+5 " ⚖ Studio website migration from Hostwell to Squarespace planned for September
+S2 Kestrel Bindery fall planning: load the equipment rider, Okonkwo-Reyes album, van, fall workshop venue, and website notes, then sort out what is due in the next two weeks; resolved the open Hostwell renewal question and recorded the website decision (Aug 28 at 3:53 PM)
+S1 Kestrel Bindery fall planning: load equipment rider, Okonkwo-Reyes album, van, fall workshop venue, and website notes, then sort out what is due in the next two weeks (Aug 28 at 3:53 PM)
+6 3:56p ⚖ Squarespace migration dropped; Hostwell renewed for 2027
+S3 Kestrel Bindery fall planning: loaded the equipment rider, Okonkwo-Reyes album, van, fall workshop venue, and website notes to sort out the next two weeks; now pricing the Okonkwo-Reyes album quote (Aug 28 at 3:56 PM)
+S4 Okonkwo-Reyes album quote and proof-delivery location: confirm the $1,850 quote goes out by Tuesday 9/2 and clarify where scans should go for proofs (Aug 28 at 3:59 PM)
+S5 Log two fall-workshop decisions: Dani's raise to $19/hr effective 9/1, and the Thursday-only workshop series with Saturday dropped, with the Burnside Hall hold tied to those dates (Aug 28 at 4:03 PM)
+S6 Cutter insurance follow-up: after the 8/31 appraisal, send the PDF to Rosa Entwistle at Piedmont Mutual and get written confirmation it is on file before the 11/15 rider deadline (Aug 28 at 4:07 PM)
+S7 Confirm the grant timing and check the other upcoming dates: grant decisions are mailed by 10/15, Mortise's booster is due 9/20, and the Q3 estimated tax is due 9/15 (Aug 28 at 4:11 PM)
+S8 Kestrel Bindery fall planning: write the session handoff with the insurer call after the appraisal as the next action (Aug 28 at 4:15 PM)
+7 4:40p ✓ Session handoff written for Kestrel Bindery fall planning
+S9 Kestrel Bindery fall planning: write the session handoff with the insurer call after the appraisal as the next action; session now parked (Aug 28 at 4:41 PM)
+**Investigated**: Reviewed the five Kestrel Bindery notes loaded this session: equipment policy, Okonkwo-Reyes album order, van registration, fall workshop venue, and studio website host. Checked the album quote template and spec PDF locations, and noted the 2025 pricing spreadsheet was moved to the NAS and the album_proofs scans directory does not exist yet.
+
+**Learned**: The website migration to Squarespace was dropped because Dani renewed Hostwell for a year on 8/25, so the site should not be touched. The Okonkwo-Reyes album is premium tier, 3 volumes, $1,850 with a 50% deposit. The cutter rider ends 11/15 unless written insurer confirmation of the appraisal is on file. Burnside Hall needs a signed hold form and $300 deposit before 9/15 for the Thursday dates Oct 8-29.
+
+**Completed**: Handoff file session/HANDOFF_2026-08-28_1640_kestrel.md written, recording completed work, four pending items, the next action, and a resumption prompt. Two decisions logged: Dani's raise to $19/hr effective 9/1, and the Thursday-only workshop series with Saturday dropped.
+
+**Next Steps**: Session is parked until after fair season. On resumption, work the four pending items in order: send the Okonkwo-Reyes quote ($1,850) by 9/2; the 8/31 appraisal at Highland Appraisals, then send the PDF to Rosa Entwistle at Piedmont Mutual and get written confirmation before 11/15; van registration renewal by 9/30; signed hold form and $300 deposit to Burnside Hall before 9/15. The next action is the morning-of-9/1 call to Rosa Entwistle.
+
+**Notes**: The Q3 estimated tax (9/15) and the Burnside Hall deadline fall on the same date and should be handled together. Mortise's booster (9/20) follows shortly after and has not been reviewed in this session. The handoff file is the single resumption point.

@@ -1,0 +1,28 @@
+Access Claude-Mem Rules + Tools: ~/.claude-mem/RULES-AND-TOOLS.md
+
+### Aug 28, 2026
+1 3:51p ○ Guillotine cutter equipment rider requires appraisal by 2026-11-15
+2 " ○ Brennan-Sato wedding album order: quote due to couple by 2026-09-02
+3 " ○ Promaster van registration expires 2026-09-30, renewal on county portal
+4 " ○ Capitol Annex fall workshop hold expires 2026-09-15 with $300 deposit
+5 " ⚖ Plan to migrate studio website from Evergreen Host to Webflow in September
+S2 Lantern Press Bindery fall planning: loaded the equipment rider, Brennan-Sato album order, van registration, fall workshop venue, and website host notes, sorted the two-week deadline list, and recorded the website migration decision. (Aug 28 at 3:53 PM)
+S1 Lantern Press Bindery fall planning: loaded the equipment rider, Brennan-Sato album order, van registration, fall workshop venue, and website host notes, then sorted the two-week deadline list. (Aug 28 at 3:53 PM)
+6 3:56p ⚖ Webflow website migration dropped; Evergreen Host renewed through 2027
+S3 Lantern Press Bindery fall planning, continued: checked the local archive for the 2025 pricing spreadsheet and drafted a quote for the Brennan-Sato album using the premium tier. (Aug 28 at 3:56 PM)
+S4 Brennan-Sato album quote and proof delivery: confirm $1,850 quote to send by Tuesday 9/2, and locate the album proofs scan folder (Aug 28 at 3:59 PM)
+S5 Fall workshop planning for Lantern Press Bindery: logging Teo's pay raise, confirming the Thursday-only schedule, and securing the Capitol Annex hold (Aug 28 at 4:03 PM)
+S6 Guillotine cutter insurance rider: send the appraisal to Cascade Assurance and get written confirmation on file before the 11/15 deadline (Aug 28 at 4:07 PM)
+S7 Upcoming deadline check: grant decision mailing date and two out-of-scope deadlines (Folio booster, Q3 estimated tax) that were not loaded in this session (Aug 28 at 4:11 PM)
+S8 Lantern Press Bindery fall planning: write end-of-session handoff with pending items and the insurer call as next action (Aug 28 at 4:15 PM)
+7 4:40p ✓ Wrote end-of-session handoff for Lantern Press Bindery fall planning
+S9 Lantern Press Bindery fall planning: session parked after writing handoff, resumable from HANDOFF_2026-08-28_1640_lantern.md (Aug 28 at 4:41 PM)
+**Investigated**: Reviewed the five loaded notes (equipment policy, Brennan-Sato album order, van registration, fall workshop venue, studio website host) and checked the archive and scan folder paths during the session.
+
+**Learned**: Website migration to Webflow is off because Evergreen Host was renewed for a year on 8/25. The 2025 pricing spreadsheet has moved to the NAS. Workshop series is Thursday-only, and Teo's raise to $19/hr takes effect 9/1.
+
+**Completed**: Album quote set at premium tier, 3 volumes, $1,850, 50% deposit. Website note updated. Handoff file written with four pending items and the next action.
+
+**Next Steps**: Work resumes after fair season. First item on resumption is the 9/1 call to Marcus Oyelaran at Cascade Assurance to confirm the appraisal is on file before 11/15. Remaining items: album quote by 9/2, van registration by 9/30, venue hold and deposit by 9/15.
+
+**Notes**: Parked intentionally until after fair season. The handoff's resumption prompt should be enough to pick up cleanly without reloading the notes.

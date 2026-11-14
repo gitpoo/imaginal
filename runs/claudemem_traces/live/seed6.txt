@@ -1,0 +1,29 @@
+Access Claude-Mem Rules + Tools: ~/.claude-mem/RULES-AND-TOOLS.md
+
+### Aug 28, 2026
+1 3:51p ○ Equipment rider requires guillotine cutter appraisal by 2026-11-15
+2 " ○ Brennan-Sato wedding album order: premium 3-volume set, quote due 2026-09-02
+3 " ○ Promaster van registration expires 2026-09-30, owner renews herself
+4 " ○ Capitol Annex workshop hold runs until 2026-09-15 with $300 deposit
+5 " ⚖ Planned website migration from Evergreen Host to Webflow in September
+S2 Lantern Press fall planning: load equipment rider, Brennan-Sato album, van, fall workshop venue, and website notes, then sort out two-week deadlines; follow-up confirmed Evergreen Host renewal and recorded the Webflow migration cancellation (Aug 28 at 3:53 PM)
+S1 Lantern Press fall planning: load equipment rider, Brennan-Sato album, van, fall workshop venue, and website notes, then sort out what is due in the next two weeks (Aug 28 at 3:53 PM)
+6 3:56p ⚖ Webflow migration dropped; Evergreen Host renewed through 2027-08-25
+S3 Lantern Press fall planning: continued from the two-week deadline review. The user asked to locate the 2025 pricing spreadsheet to price the Brennan-Sato album quote. (Aug 28 at 3:56 PM)
+S4 Brennan-Sato album quote at $1,850 due by Tuesday 9/2, and confirming where proof scans should go (album_proofs folder under seed6 fs/scans) (Aug 28 at 3:59 PM)
+7 4:03p ○ Proof scans folder under fs/scans is empty; scan location for album proofs unconfirmed
+S5 Log Teo's wage raise and the fall workshop schedule change, and confirm the Capitol Annex hold for the Thursday dates (Aug 28 at 4:03 PM)
+S6 Plan the equipment rider follow-up for the guillotine cutter: send the appraisal to Cascade Assurance and get written confirmation on file before the 11/15 rider deadline (Aug 28 at 4:07 PM)
+S7 Confirm that no action is needed on the arts grant decisions, and note the upcoming Folio booster and Q3 estimated tax dates that are tracked in their own notes (Aug 28 at 4:11 PM)
+S8 Lantern Press fall planning: handoff written for the next session, with the insurer call after the appraisal as the next action (Aug 28 at 4:15 PM)
+8 4:40p ✓ Handoff document written for Lantern Press fall planning session
+S9 Lantern Press fall planning session parked; handoff written so the work can resume after fair season (Aug 28 at 4:41 PM)
+**Investigated**: Reviewed the five loaded notes (equipment rider, Brennan-Sato album order, van registration, fall workshop venue, website host) and the open deadlines across them.
+
+**Learned**: Website migration to Webflow was dropped; Evergreen Host renewed through 2027-08-25. The album order is premium tier, 3 volumes, $1,850 with a 50% deposit. Teo's raise to $19/hr takes effect 9/1, and the workshop series is Thursday-only with Saturday dropped. The 2025 pricing spreadsheet has moved to the NAS, and the album proofs folder does not exist yet.
+
+**Completed**: Handoff file session/HANDOFF_2026-08-28_1640_lantern.md written, containing what was done, four pending items in deadline order, the next action, and a resumption prompt.
+
+**Next Steps**: Parked until after fair season. On resumption, the first action is the 9/1 call to Marcus Oyelaran at Cascade Assurance to send the appraisal PDF and get written confirmation on file before the 11/15 cutter rider deadline. Then the album quote ($1,850) by 9/2, van registration by 9/30, and the Capitol Annex hold form with $300 deposit before 9/15.
+
+**Notes**: The album quote is blocked on two missing file locations (the archived pricing sheet and the proofs folder) that need resolving first. The 9/1 insurer call, 9/2 quote, and 9/15 venue deposit fall in the same window as the Q3 tax (9/15) and Folio booster (9/20) and should be reviewed together.
